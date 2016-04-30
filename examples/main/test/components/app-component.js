@@ -1,10 +1,10 @@
 import React from 'react';
 import {
   PageSideTypesEnum,
-  FlipperManagerContainer,
   Front,
   Back,
 } from 'react-redux-flipper';
+import FlipperManagerContainer from '../container/FlipperManagerContainer';
 
 export default class AppComponent extends React.Component {
 

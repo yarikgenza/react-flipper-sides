@@ -1,7 +1,7 @@
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import { FlipperManager } from '../components/FlipperManager';
 import * as flippingActions from '../actions/flipping-actions';
+import { FlipperManager } from '../components/FlipperManager';
 
 function mapDispatchToProps(dispatch) {
   return {

@@ -1,5 +1,5 @@
 import * as exceptionMethods from 'exception-methods';
-import * as PageSideTypesEnum from '../enums/page-side-types-enum';
+import { PageSideTypesEnum } from 'react-redux-flipper';
 
 export function isStackOpen(status) {
   switch (status) {

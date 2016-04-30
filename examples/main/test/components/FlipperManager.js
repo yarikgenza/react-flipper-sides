@@ -2,9 +2,11 @@ import React from 'react';
 import autobind from 'autobind-decorator';
 import { Motion, spring, presets } from 'react-motion';
 import * as exceptionMethods from 'exception-methods';
-import * as PageSideTypesEnum from '../enums/page-side-types-enum';
+import {
+  PageSideTypesEnum,
+  Flipper,
+} from 'react-redux-flipper';
 import { isStackOpen } from '../utils/visability-statuses';
-import { Flipper } from './Flipper';
 
 const propTypes = {
   stackId: React.PropTypes.any,
