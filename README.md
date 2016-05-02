@@ -6,6 +6,14 @@
 
 React flipper component.
 
+### Installation
+
+Using [npm](https://www.npmjs.com/):
+
+```
+npm install --save react-redux-flipper
+```
+
 ### License
 
 MIT
