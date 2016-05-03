@@ -14,10 +14,7 @@ module.exports = {
 	},
 	module: {
 		loaders: [
-			{ test: /\.(js)(\?.*)?$/, loader: 'babel-loader' },
-			{ test: /\.css$/, loader: 'style-loader!css-loader' },
-			{ test: /\.less$/, loader: 'style!css!less' },
-			{ test: /\.(ttf|woff|eot|svg|jpe?g|png|gif?)(\?[a-z0-9]+)?$/, loader: 'file-loader' }
+			{ test: /\.(js)(\?.*)?$/, loader: 'babel-loader' }
 		]
 	}
 };
