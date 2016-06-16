@@ -1,7 +1,7 @@
 import React from 'react';
 import autobind from 'autobind-decorator';
 import { Motion, spring, presets } from 'react-motion';
-import * as exceptionMethods from 'exception-methods';
+import invariant from 'invariant';
 import {
   PageSideTypesEnum,
   Flipper,
@@ -54,9 +54,7 @@ export class FlipperManager extends React.Component {
         }
         return;
       default:
-        if (process.env.NODE_ENV !== 'production') {
-          throw exceptionMethods.rangeException('side', this.props.side);
-        }
+        invariant(true, 'Property "this.props.side" is out of range.');
         return;
     }
   }

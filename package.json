@@ -1,6 +1,6 @@
 {
   "name": "react-redux-flipper",
-  "version": "0.0.1-rc.3",
+  "version": "0.0.2",
   "description": "React Flipper Component",
   "author": {
     "name": "Rostyslav Khanas",
@@ -23,7 +23,7 @@
   ],
   "main": "lib/index.js",
   "dependencies": {
-    "exception-methods": "^0.0.9",
+    "invariant": "^2.2.1",
     "react": "^15.1.0",
     "react-redux": "^4.4.5",
     "redux": "^3.5.1"

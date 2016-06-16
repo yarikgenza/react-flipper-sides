@@ -1,4 +1,4 @@
-import * as exceptionMethods from 'exception-methods';
+import invariant from 'invariant';
 import { PageSideTypesEnum } from 'react-redux-flipper';
 
 export function isStackOpen(status) {
@@ -12,9 +12,7 @@ export function isStackOpen(status) {
     case PageSideTypesEnum.PREPARE_TO_MAIN:
       return false;
     default:
-      if (process.env.NODE_ENV !== 'production') {
-        throw exceptionMethods.rangeException('status', status);
-      }
+      invariant(true, 'Property "status" in "isStackOpen" function is out of range.');
       return true;
   }
 }
