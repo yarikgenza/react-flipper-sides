@@ -7,13 +7,11 @@ const propTypes = {
 
 const defaultProps = {};
 
-export function Back(props) {
-  return (
-    <div style={BACK_STYLE} >
-      {props.children}
-    </div>
-  );
-}
+export const Back = ({ children }) => (
+  <div style={BACK_STYLE} >
+    {children}
+  </div>
+);
 
 Back.propTypes = propTypes;
 Back.defaultProps = defaultProps;

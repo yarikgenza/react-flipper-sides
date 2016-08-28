@@ -7,13 +7,11 @@ const propTypes = {
 
 const defaultProps = {};
 
-export function Front(props) {
-  return (
-    <div style={FRONT_STYLE} >
-      {props.children}
-    </div>
-  );
-}
+export const Front = ({ children }) => (
+  <div style={FRONT_STYLE} >
+    {children}
+  </div>
+);
 
 Front.propTypes = propTypes;
 Front.defaultProps = defaultProps;

@@ -1,6 +1,0 @@
-export const PREPARE_TO_MAIN = 'PREPARE_TO_MAIN';
-export const GOING_TO_MAIN = 'GOING_TO_MAIN';
-export const MAIN_SET_DONE = 'MAIN_SET_DONE';
-export const PREPARE_TO_COVER = 'PREPARE_TO_COVER';
-export const GOING_TO_COVER = 'GOING_TO_COVER';
-export const COVER_SET_DONE = 'COVER_SET_DONE';
