@@ -8,3 +8,8 @@ export const FRONT_BACK = {
   backfaceVisibility: 'hidden',
   WebkitBackfaceVisibility: 'hidden',
 };
+
+export default {
+  MAXIMIZED,
+  FRONT_BACK,
+};

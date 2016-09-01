@@ -1,5 +1,3 @@
-import { Flipper } from './component';
+import Flipper from './component';
 
-export {
-  Flipper,
-};
+export default Flipper;

@@ -1,5 +1,3 @@
-import { Front } from './component';
+import Front from './component';
 
-export {
-  Front,
-};
+export default Front;

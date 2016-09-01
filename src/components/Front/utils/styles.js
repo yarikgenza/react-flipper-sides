@@ -5,3 +5,7 @@ export const FRONT_STYLE = Object.assign({}, MAXIMIZED, FRONT_BACK, {
   transform: 'rotateY(0deg)',
   overflow: 'hidden',
 });
+
+export default {
+  FRONT_STYLE,
+};

@@ -10,7 +10,7 @@ const defaultProps = {
   animationProgress: 0,
 };
 
-export class Flipper extends React.Component {
+export default class Flipper extends React.Component {
 
   getStackContainerStyle(animationProgress) {
     const rotate = animationProgress * 180;

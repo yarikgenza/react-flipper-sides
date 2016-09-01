@@ -7,7 +7,7 @@ const propTypes = {
 
 const defaultProps = {};
 
-export const Back = ({ children }) => (
+const Back = ({ children }) => (
   <div style={BACK_STYLE} >
     {children}
   </div>
@@ -15,3 +15,5 @@ export const Back = ({ children }) => (
 
 Back.propTypes = propTypes;
 Back.defaultProps = defaultProps;
+
+export default Back;

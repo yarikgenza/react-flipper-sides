@@ -1,5 +1,3 @@
-import { Back } from './component';
+import Back from './component';
 
-export {
-  Back,
-};
+export default Back;

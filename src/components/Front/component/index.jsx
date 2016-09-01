@@ -7,7 +7,7 @@ const propTypes = {
 
 const defaultProps = {};
 
-export const Front = ({ children }) => (
+const Front = ({ children }) => (
   <div style={FRONT_STYLE} >
     {children}
   </div>
@@ -15,3 +15,5 @@ export const Front = ({ children }) => (
 
 Front.propTypes = propTypes;
 Front.defaultProps = defaultProps;
+
+export default Front;

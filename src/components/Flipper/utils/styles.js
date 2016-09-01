@@ -9,3 +9,8 @@ export const STACK_CONTAINER = Object.assign({}, MAXIMIZED, {
   position: 'relative',
   transformStyle: 'preserve-3d',
 });
+
+export default {
+  STACK_FLIPPER,
+  STACK_CONTAINER,
+};
