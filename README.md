@@ -1,8 +1,8 @@
-# react-redux-flipper
+# react-flipper-sides
 
-[![npm package](https://badge.fury.io/js/react-redux-flipper.svg)](https://www.npmjs.org/package/react-redux-flipper)
-[![Dependency Status](https://david-dm.org/opensource-cards/react-redux-flipper.svg)](https://david-dm.org/opensource-cards/react-redux-flipper)
-[![devDependency Status](https://david-dm.org/opensource-cards/react-redux-flipper/dev-status.svg)](https://david-dm.org/opensource-cards/react-redux-flipper#info=devDependencies)
+[![npm package](https://badge.fury.io/js/react-flipper-sides.svg)](https://www.npmjs.org/package/react-flipper-sides)
+[![Dependency Status](https://david-dm.org/opensource-cards/react-flipper-sides.svg)](https://david-dm.org/opensource-cards/react-flipper-sides)
+[![devDependency Status](https://david-dm.org/opensource-cards/react-flipper-sides/dev-status.svg)](https://david-dm.org/opensource-cards/react-flipper-sides#info=devDependencies)
 
 React flipper component.
 
@@ -11,7 +11,7 @@ React flipper component.
 Using [npm](https://www.npmjs.com/):
 
 ```
-npm install --save react-redux-flipper
+npm install --save react-flipper-sides
 ```
 
 ### License
