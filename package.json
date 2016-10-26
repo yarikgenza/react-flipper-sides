@@ -1,6 +1,6 @@
 {
   "name": "react-flipper-sides",
-  "version": "0.0.1-rc.0",
+  "version": "0.0.1-rc.1",
   "description": "React Flipper Sides",
   "keywords": [
     "react",
@@ -12,10 +12,15 @@
     "email": "rk@try.cards"
   },
   "scripts": {
+    "rn-watch": "babel ./src --out-dir=./example_rn/lib --watch",
+    "rn-storybook": "cd example_rn && npm run storybook",
+    "rn-run-ios": "cd example_rn && react-native run-ios",
     "clean": "rimraf lib",
     "lint": "eslint src",
     "build": "npm run lint && npm run clean && babel src --out-dir lib",
-    "start": "cd examples/main && webpack-dev-server --inline --hot"
+    "start": "cd examples/main && webpack-dev-server --inline --hot",
+    "storybook": "start-storybook -p 6007",
+    "build-storybook": "build-storybook"
   },
   "license": "MIT",
   "repository": {
@@ -25,9 +30,12 @@
     "lib"
   ],
   "main": "lib/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "styled-components": "^1.0.8"
+  },
   "peerDependencies": {
-    "react": "^15.0.0"
+    "react": "^15.0.0",
+    "react-native": "^0.36.0"
   },
   "devDependencies": {
     "babel": "^6.3.26",
@@ -45,6 +53,7 @@
     "eslint-plugin-react": "^6.2.0",
     "rimraf": "^2.5.4",
     "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.15.1"
+    "webpack-dev-server": "^1.15.1",
+    "@kadira/storybook": "^2.21.0"
   }
 }

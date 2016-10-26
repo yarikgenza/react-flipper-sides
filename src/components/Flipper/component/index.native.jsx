@@ -1,4 +1,5 @@
 import React from 'react';
+import { Dimensions } from 'react-native';
 import FlipperContainer from '../components-styled/FlipperContainer';
 import FlipperWrapper from '../components-styled/FlipperWrapper';
 
@@ -16,17 +17,20 @@ export default class Flipper extends React.Component {
   getStackContainerStyle(animationProgress) {
     const rotate = animationProgress * 180;
     return {
-      transform: `rotate3d(0, 1, 0, ${rotate}deg)`,
-      WebkitTransform: `rotate3d(0, 1, 0, ${rotate}deg)`,
+      transform: [
+        { perspective: 1000 },
+        { rotateY: `${rotate}deg` },
+      ],
     };
   }
 
   render() {
-    const stackContainerStyle = this.getStackContainerStyle(this.props.animationProgress);
+    const { animationProgress, children } = this.props;
+    const stackContainerStyle = this.getStackContainerStyle(animationProgress);
     return (
       <FlipperWrapper>
         <FlipperContainer style={stackContainerStyle} >
-          {this.props.children}
+          {animationProgress < 0.5 ? children[0] : children[1]}
         </FlipperContainer>
       </FlipperWrapper>
     );
