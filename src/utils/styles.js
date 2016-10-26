@@ -1,15 +1,14 @@
 
-export const MAXIMIZED = {
-  width: '100%',
-  height: '100%',
-};
+export const MAXIMIZED_WEB = `
+  height: 100%;
+  width: 100%;
+`;
 
-export const FRONT_BACK = {
-  backfaceVisibility: 'hidden',
-  WebkitBackfaceVisibility: 'hidden',
-};
+export const FRONT_BACK_WEB = `
+  backface-visibility: hidden;
+`;
 
 export default {
-  MAXIMIZED,
-  FRONT_BACK,
+  MAXIMIZED_WEB,
+  FRONT_BACK_WEB,
 };
