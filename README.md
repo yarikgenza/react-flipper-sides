@@ -5,7 +5,7 @@
 [![devDependency Status](https://david-dm.org/opensource-cards/react-flipper-sides/dev-status.svg)](https://david-dm.org/opensource-cards/react-flipper-sides#info=devDependencies)
 [![peerDependency Status](https://david-dm.org/opensource-cards/react-flipper-sides/peer-status.svg)](https://david-dm.org/opensource-cards/react-flipper-sides#info=peerDependencies)
 
-React flipper component.
+React and React Native flipper component.
 
 ### Installation
 
