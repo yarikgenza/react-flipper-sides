@@ -18,9 +18,8 @@
     "clean": "rimraf lib",
     "lint": "eslint src",
     "build": "npm run lint && npm run clean && babel src --out-dir lib",
-    "start": "cd examples/main && webpack-dev-server --inline --hot",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o docs",
+    "storybook": "start-storybook -p 6006"
   },
   "license": "MIT",
   "repository": {
@@ -53,8 +52,6 @@
     "eslint-plugin-jsx-a11y": "^2.2.1",
     "eslint-plugin-react": "^6.2.0",
     "rimraf": "^2.5.4",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.15.1",
     "@kadira/storybook": "^2.21.0"
   }
 }
