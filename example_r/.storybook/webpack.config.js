@@ -4,7 +4,7 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx'],
     alias: {
-      'react-flipper-sides': path.join(__dirname, '..', 'src')
+      'react-flipper-sides': path.join(__dirname, '..', '..', 'src')
     }
   },
   module: {

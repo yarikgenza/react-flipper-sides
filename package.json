@@ -1,6 +1,6 @@
 {
   "name": "react-flipper-sides",
-  "version": "0.0.1-rc.1",
+  "version": "0.0.1-rc.2",
   "description": "React Flipper Sides",
   "keywords": [
     "react",
@@ -12,14 +12,14 @@
     "email": "rk@try.cards"
   },
   "scripts": {
+    "r-build-storybook": "cd example_r && npm run build-storybook",
+    "r-storybook": "cd example_r && npm run storybook",
     "rn-watch": "babel ./src --out-dir=./example_rn/lib --watch",
     "rn-storybook": "cd example_rn && npm run storybook",
     "rn-run-ios": "cd example_rn && react-native run-ios",
     "clean": "rimraf lib",
     "lint": "eslint src",
-    "build": "npm run lint && npm run clean && babel src --out-dir lib",
-    "build-storybook": "build-storybook -o docs",
-    "storybook": "start-storybook -p 6006"
+    "build": "npm run lint && npm run clean && babel src --out-dir lib"
   },
   "license": "MIT",
   "repository": {
@@ -29,13 +29,12 @@
     "lib"
   ],
   "main": "lib/index.js",
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
-    "styled-components": "^1.0.8"
-  },
-  "peerDependencies": {
-    "react-native": "^0.36.0"
+    "react-native": "^0.36.0",
+    "styled-components": "^1.1.2"
   },
   "devDependencies": {
     "babel": "^6.3.26",
@@ -51,7 +50,6 @@
     "eslint-plugin-import": "^1.14.0",
     "eslint-plugin-jsx-a11y": "^2.2.1",
     "eslint-plugin-react": "^6.2.0",
-    "rimraf": "^2.5.4",
-    "@kadira/storybook": "^2.21.0"
+    "rimraf": "^2.5.4"
   }
 }

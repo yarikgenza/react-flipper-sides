@@ -1,0 +1,17 @@
+{
+  "name": "example_r",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -o ../docs"
+  },
+  "dependencies": {
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
+    "styled-components": "^1.1.2"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0"
+  }
+}
