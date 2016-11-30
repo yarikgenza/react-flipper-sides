@@ -1,6 +1,6 @@
 {
   "name": "react-flipper-sides",
-  "version": "0.0.1-rc.2",
+  "version": "0.0.1-rc.3",
   "description": "React Flipper Sides",
   "keywords": [
     "react",
@@ -12,6 +12,7 @@
     "email": "rk@try.cards"
   },
   "scripts": {
+    "install-peer-dependencies": "npm install react@15.3.2 && npm install react-dom@15.3.2 && npm install react-native && npm install styled-components",
     "r-build-storybook": "cd example_r && npm run build-storybook",
     "r-storybook": "cd example_r && npm run storybook",
     "rn-watch": "babel ./src --out-dir=./example_rn/lib --watch",
@@ -31,8 +32,7 @@
   "main": "lib/index.js",
   "dependencies": {},
   "peerDependencies": {
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0",
+    "react": "~15.3.2",
     "react-native": "^0.36.0",
     "styled-components": "^1.1.2"
   },
