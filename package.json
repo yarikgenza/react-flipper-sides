@@ -24,7 +24,8 @@
   },
   "license": "MIT",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git@github.com:opensource-cards/react-flipper-sides.git"
   },
   "files": [
     "lib"
