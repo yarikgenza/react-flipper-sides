@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 import { storiesOf } from '@kadira/react-native-storybook';
-import { Back, Flipper, Front } from '../../lib';
+import Flipper, { Back, Front } from '../../lib';
 
 storiesOf('Flipper', module)
   .add('front', () => (

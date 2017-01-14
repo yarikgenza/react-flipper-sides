@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
-import { Back, Flipper, Front } from 'react-flipper-sides';
+import Flipper, { Back, Front } from 'react-flipper-sides';
 
 storiesOf('Flipper', module)
   .add('front', () => (
