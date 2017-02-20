@@ -16,7 +16,7 @@ Using [npm](https://www.npmjs.com/):
 npm install --save react-flipper-sides
 ```
 
-## Want to contribute?
+### Want to contribute?
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md)
 
