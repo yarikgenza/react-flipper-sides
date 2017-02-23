@@ -21,7 +21,7 @@
     "storybook-ios": "npm run storybook-native-watch & npm run storybook-native & npm run storybook-emulator-ios",
     "clean": "rimraf lib",
     "lint": "eslint src",
-    "test": "mocha --recursive --compilers js:babel-core/register",
+    "test": "mocha --recursive --compilers jsx:babel-core/register",
     "build": "npm run lint && npm test && npm run clean && babel src --out-dir lib",
     "release": "npm run build && npm run storybook-web-build"
   },

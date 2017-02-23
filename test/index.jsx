@@ -14,7 +14,7 @@ describe('<Flipper /> shallow rendering', () => {
         <Back>
           <div>Back</div>
         </Back>
-      </Flipper>
+      </Flipper>,
     );
     expect(wrapper.children()).to.have.length(1);
   });
@@ -30,7 +30,7 @@ describe('<Flipper /> full DOM rendering', () => {
         <Back>
           <div>Back</div>
         </Back>
-      </Flipper>
+      </Flipper>,
     );
     expect(wrapper.children()).to.have.length(1);
   });
