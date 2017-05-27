@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import FrontContainer from '../components-styled/FrontContainer';
 
 const propTypes = {
-  children: React.PropTypes.any,
+  children: PropTypes.any.isRequired,
 };
 
 const defaultProps = {};

@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import BackContainer from '../components-styled/BackContainer';
 
 const propTypes = {
-  children: React.PropTypes.any,
+  children: PropTypes.any.isRequired,
 };
 
 const defaultProps = {};
