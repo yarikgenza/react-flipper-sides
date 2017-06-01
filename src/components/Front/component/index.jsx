@@ -3,10 +3,12 @@ import React from 'react';
 import FrontContainer from '../components-styled/FrontContainer';
 
 const propTypes = {
-  children: PropTypes.any.isRequired,
+  children: PropTypes.any,
 };
 
-const defaultProps = {};
+const defaultProps = {
+  children: null,
+};
 
 const Front = ({ children }) => (
   <FrontContainer>

@@ -3,10 +3,12 @@ import React from 'react';
 import BackContainer from '../components-styled/BackContainer';
 
 const propTypes = {
-  children: PropTypes.any.isRequired,
+  children: PropTypes.any,
 };
 
-const defaultProps = {};
+const defaultProps = {
+  children: null,
+};
 
 const Back = ({ children }) => (
   <BackContainer>
