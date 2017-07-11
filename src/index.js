@@ -1,10 +1,3 @@
-import Flipper from './components/Flipper';
-import Front from './components/Front';
-import Back from './components/Back';
-
-export default Flipper;
-
-export {
-  Back,
-  Front,
-};
+export { default } from './components/Flipper';
+export { default as Front } from './components/Front';
+export { default as Back } from './components/Back';

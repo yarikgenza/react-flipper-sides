@@ -10,10 +10,8 @@ A flipper component for React and React Native.
 
 ### Installation
 
-Using [npm](https://www.npmjs.com/):
-
 ```
-npm install --save react-flipper-sides
+yarn add react-flipper-sides
 ```
 
 ### Want to contribute?

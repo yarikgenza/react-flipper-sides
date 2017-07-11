@@ -1,3 +1,1 @@
-import Flipper from './component';
-
-export default Flipper;
+export { default } from './component';

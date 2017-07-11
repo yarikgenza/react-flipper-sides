@@ -1,3 +1,1 @@
-import Front from './component';
-
-export default Front;
+export { default } from './component';
