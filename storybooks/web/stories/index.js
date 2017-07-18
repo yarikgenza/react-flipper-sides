@@ -1,9 +1,12 @@
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import infoAddon from '@storybook/addon-info';
+import { storiesOf, setAddon } from '@storybook/react';
 import Flipper, { Back, Front } from 'react-flipper-sides';
 
+setAddon(infoAddon);
+
 storiesOf('Flipper', module)
-  .add('front', () => (
+  .addWithInfo('front', () => (
     <Flipper animationProgress={0.1}>
       <Front>
         <div style={{ background: 'red', height: '100%', width: '100%' }}>Front</div>
@@ -13,7 +16,7 @@ storiesOf('Flipper', module)
       </Back>
     </Flipper>
   ))
-  .add('back', () => (
+  .addWithInfo('back', () => (
     <Flipper animationProgress={0.9}>
       <Front>
         <div style={{ background: 'red', height: '100%', width: '100%' }}>Front</div>

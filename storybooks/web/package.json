@@ -8,6 +8,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@kadira/storybook": "^2.21.0"
+    "@storybook/react": "3.1.9",
+    "@storybook/addon-info": "^3.1.9"
   }
 }
